@@ -1,0 +1,122 @@
+/*/////////////////////////General///////////////////*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+
+}
+/*/////////////////////////Relleno////////////////////*/
+.contenedorTodo{
+    background-color:#7FC9EE;
+    width:500px;
+    height:500px;
+    align-items:center;
+}
+/*////////////////////////Encabezado///////////////////*/
+.contenedorEncabezado{
+    color:#FFFFFF;
+    font-size:30px;
+}
+.logotipo{
+    margin-right:300px;
+}
+.Tuenti{
+    margin-right:none;
+    margin-top:5px;
+}
+.contenedorTextPromocional{
+    display:flex;
+    font-size:15px;
+}
+.textoUno{
+    text-decoration: weight;
+    color:#000000;
+}
+.textoDos{
+    text-decoration: lighter;
+    color:gray;
+}
+.Empresa{
+    display:flex;
+    margin-left:150px;
+    margin-top:10px;
+}
+/*////////////////////////Formulario////////////////////*/
+.contenedorFormulario{
+    background-color:#FFFFFF;
+    border:gray;
+    border:1px;
+    border-radius:10px;
+    width:450px;
+    margin-left:25px;
+    
+}
+.contenedorDatos{
+    display:flex;
+    align-items: center;
+    padding:15px;
+}
+
+.Email{
+    align-items:center;
+    margin-top:15px;
+    margin-left:100px;
+}
+.contenedorCheckBox{
+    display:flex;
+    margin-top:15px;
+    margin-left:125px;
+}
+.contenedorCalendario{
+    display:flex;
+    margin-top:15px;
+    margin-left:50px;
+}
+.Calendario{
+    display:flex;
+}
+.contenedorContraseña{
+    display:flex;
+    margin-top:15px;
+    margin-left:100px;
+}
+.contenedorTelefono{
+    display:flex;
+    margin-top:15px;
+    margin-left:55px;
+    padding: 15px;
+}
+.edadMinima{
+    margin-top:15px;
+    margin-left:60px;
+    color:gray;
+    text-decoration: weight;
+}
+.consejosContraseña{
+    color:purple;
+    text-decoration: underline;
+    font-size:15px;
+    margin-top:15px;
+    margin-left:100px;
+}
+
+/*/////////////////////////Pie de página////////////////*/
+.contenedorFooter{
+    display:flex;
+    padding:15px;
+}
+.texto{
+    display:flex;
+}
